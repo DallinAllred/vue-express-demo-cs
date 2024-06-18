@@ -11,7 +11,6 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 app.use(cors());
 
-
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
