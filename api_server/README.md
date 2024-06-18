@@ -1,17 +1,12 @@
 
 # Background
-This is the frontend for a simple web application utilizing the Vue 3 and Vuetify frameworks.
+This is a very simple Express server whose primary purpose is to serve the SQLite database file to the frontend.
 
-# Instructions
-### Compile and Hot-Reload for Development
+# Server Instructions
+Install and run the server with the following commands:
 ```sh
 npm install
-node run dev
-```
-
-### Compile and Minify for Production
-```sh
-npm run build
+node server.js
 ```
 ---
 ---
